@@ -1,0 +1,53 @@
+.home-page {
+  padding: 20px;
+  color: #333;
+
+  h2 {
+    font-size: 24px;
+    color: #333;
+  }
+
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .quick-links {
+    margin-bottom: 20px;
+
+    a {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 24px;
+      color: white;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .featured-books {
+    h3 {
+      color: #333;
+    }
+
+    a {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 18px;
+      color: white;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

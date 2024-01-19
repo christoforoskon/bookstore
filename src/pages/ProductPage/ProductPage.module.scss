@@ -1,0 +1,39 @@
+.product-page {
+  color: #fff;
+  padding: 1rem 2.5rem;
+
+  .product-image img {
+    max-height: 450px;
+    margin-right: 20px;
+    border: 1px solid #fff;
+  }
+
+  button {
+    color: white;
+    background-color: transparent;
+    border: 2px solid #77421b;
+
+    &:hover {
+      border: 2px solid #77421b;
+      color: #77421b;
+    }
+  }
+
+  .product-details * {
+    display: block;
+    flex-direction: row;
+
+    h2 {
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      color: #fff;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+  }
+}

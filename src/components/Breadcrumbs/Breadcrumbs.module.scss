@@ -1,0 +1,15 @@
+.breadcrumbs {
+  padding: 0.5rem;
+}
+
+.breadcrumb-item {
+  display: inline-block;
+  margin-right: 0.5rem;
+  color: #333;
+  cursor: pointer;
+
+  &::after {
+    content: "/";
+    margin-left: 0.5rem;
+  }
+}
